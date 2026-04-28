@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Fan Website</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <script defer src="quiz.js"></script>
+    <body>
+      <section class="nav-bar">
+        <a href="index.html">Home of The Legends</a>
+        <a href="about.html">History of F1</a>
+        <a href="quiz.html" target="_blank">Formula 1 Quiz</a>
+      </section>
+      <section class="main">
+        <h1>Formula 1 Quiz</h1>
+        <h2>Question 1</h2>
+        <p>
+          Which team has won the most Constructors' Championships in history?<br />
+          <input id="q-1" type="text" />
+          <!--Answer:Ferrari-->
+          <br />
+          <span id="result-1"></span>
+        </p>
+        <hr />
+        <h2>Question 2</h2>
+        <p>
+          What is the name of the system used by drivers to open the rear wing
+          for overtaking?
+          <br />
+          <input id="q-2" type="text" />
+          <!--Answer:DRS or Drag Reduction System-->
+          <br />
+          <span id="result-2"></span>
+        </p>
+        <hr />
+        <h2>Question 3</h2>
+        <p>
+          Which track hosts the famous "Night Race" through city streets?
+          <br />
+          <!--Answer:Singapore-->
+          <input id="q-3" type="text" />
+          <br />
+          <span id="result-3"></span>
+        </p>
+        <hr />
+        <h2>Question 4</h2>
+        <p>
+          Who is the only driver to have won a World Championship posthumously?
+          <br />
+          <img src="../Images/Rindt.jpg" alt="hacker" />
+          <!--Answer:Rindt-->
+          <br />
+          <input id="q-4" type="text" />
+          <br />
+          <span id="result-4"></span>
+        </p>
+        <hr />
+        <div>
+          <button id="mark-btn">Mark Quiz</button>
+          <br />
+          <p id="qz-rslt">Your Score: ----/4(----%)</p>
+          <hr />
+          <p id="comment">F1 knowledge level indicator</p>
+        </div>
+      </section>
+    </body>
+  </html>
+</html>
